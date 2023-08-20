@@ -271,6 +271,10 @@ body {
 
 /* owl carousel end / */
 
+.bg-abu {
+  background-color: #e0ded9;
+}
+
 /* mobile responsive */
 @media (max-width: 767.98px) {
   .nav-item a {
