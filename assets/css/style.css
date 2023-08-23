@@ -144,9 +144,9 @@ table {
   border-right: 3px solid rgba(0, 0, 0, 1);
 }
 
-.navbar-nav li {
+/* .navbar-nav li {
   border-right: 2px solid rgba(255, 255, 255, 0.1);
-}
+} */
 
 .date {
   background-color: #002147;
@@ -164,7 +164,7 @@ body {
 .navbar-nav .nav-link,
 .dropdown-menu .dropdown-item {
   text-transform: uppercase;
-  font-size: 1em;
+  font-size: 0.9em;
 }
 
 .pendaftaran {
@@ -177,16 +177,21 @@ body {
 
 .dropdown:hover > .dropdown-menu {
   display: block;
-  margin-top: 0.125em;
+  margin-top: 0px;
 }
 
-.dropend:hover > .dropdown-menu {
+.dropstart:hover > .dropdown-menu {
   display: block;
   position: absolute;
   top: 0;
-  left: 100%;
+  right: 100%;
   margin-left: 0.125em;
 }
+
+.dropdown-item {
+  margin-top: 0.6em;
+}
+
 /* navbar custom css end */
 
 #discover {
@@ -290,14 +295,30 @@ body {
   margin-top: 6rem;
 }
 
+#carouselExampleCaptions {
+  margin-top: 6rem;
+}
+
 @media (max-width: 1000px) {
   #jumbotron {
+    margin-top: 4rem;
+  }
+
+  #carouselExampleCaptions {
     margin-top: 4rem;
   }
 }
 
 /* mobile responsive */
 @media (max-width: 767.98px) {
+  .dropstart:hover > .dropdown-menu {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-left: 0.125em;
+  }
+
   #jumbotron {
     margin-top: 4rem;
   }
@@ -329,5 +350,8 @@ body {
   .prev-nav:before,
   .next-nav:before {
     box-shadow: none;
+  }
+  #carouselExampleCaptions {
+    margin-top: 4.3rem;
   }
 }

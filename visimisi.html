@@ -27,10 +27,10 @@
       referrerpolicy="no-referrer"
     />
 
-    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
 
-    <link rel="stylesheet" href="/assets/css/owl.carousel.min.css" />
-    <link rel="stylesheet" href="/assets/css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
   </head>
   <body>
     <!-- start navbar -->
@@ -136,7 +136,11 @@
                 Profil
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Visi & Misi</a></li>
+                <li>
+                  <a class="dropdown-item active" href="visimisi.html"
+                    >Visi & Misi</a
+                  >
+                </li>
                 <li><a class="dropdown-item" href="#">Sejarah Singkat</a></li>
                 <li><a class="dropdown-item" href="#">Sambutan Rektor</a></li>
                 <li>
@@ -318,225 +322,58 @@
     </nav>
     <!-- navbar end -->
 
-    <!-- style="
-              background-image: url('/assets/img/castel_1.jpeg');
-              width: 100%;
-              height: 600px;
-              background-size: cover;
-              background-repeat: no-repeat;
-            " -->
-
     <main>
-      <div class="row" id="jumbotron">
-        <div class="col-12 p-0 col-md-9">
-          <!-- Jumbotron -->
-          <div class="p-0 text-center bg-image">
-            <img
-              src="/assets/img/castel_1.jpeg"
-              style="width: 100%; height: auto"
-              alt="Jumbotron-image"
-            />
-          </div>
-          <!-- Jumbotron end -->
-
-          <div id="deskripsi-berita" class="row bg-light">
-            <div id="colom-satu" class="col-md-2 ps-5 pt-4">
-              <p class="float-end">PUBLISHED</p>
-              <p class="float-end fw-bold mt-2">21 Aug 2023</p>
-              <p class="float-end mt-5">BAGIKAN</p>
-              <div class="clearfix"></div>
-              <div class="d-flex flex-column gap-2 mt-3 float-end">
-                <a href="#" class="text-black"
-                  ><i class="fab fa-twitter"></i
-                ></a>
-                <a href="#" class="text-black"
-                  ><i class="fab fa-facebook"></i
-                ></a>
-                <a href="#" class="text-black"
-                  ><i class="fab fa-instagram-square"></i
-                ></a>
-              </div>
-            </div>
-            <div
-              id="box-berita"
-              class="col-md-10 p-md-4 bg-light rounded-3 rounded-end-0"
-            >
-              <!-- NOTED !!! -->
-              <!-- konten di sini kayanya kan ntar di isi pake text editor macam WYSWYG kaya  -->
-
-              <h1 class="fw-bold fs-1 mb-5">
-                A-level results: Congratulations to Oxford's new students
-              </h1>
-
-              <p class="lh-sm">
-                Thousands of students from across the UK have been celebrating
-                their exam results. The University of Oxford is delighted to
-                congratulate the many students who have successfully met their
-                Oxford offer, and whose places have been confirmed.
-              </p>
-              <p class="lh-sm">
-                Oxford's Vice-Chancellor, Professor Irene Tracey, said,
-                'Congratulations to all students who have received their
-                results, particularly those who have had their offers to study
-                at Oxford confirmed. We know that a considerable amount of hard
-                work and dedication has got you to this point, and you should be
-                rightly proud of your achievements. We look forward to welcoming
-                you in October, and sharing everything Oxford has to offer.'
-              </p>
-              <p class="lh-sm">
-                Here we meet some of the students who will soon be joining us at
-                Oxford.
-              </p>
-              <hr />
-              <p class="lh-sm">
-                <strong>Adzor and Lloyd</strong> from South London are 18 and
-                attended The Elms Academy in Clapham. They both achieved three
-                A* in their A-levels. Adzor studied Mathematics, Chemistry, and
-                Physics and will be joining Oriel College to study Chemistry.
-                Lloyd will be studying Mathematics at Exeter College, having
-                gained A-levels in Mathematics, Further Maths, and Physics.
-              </p>
-              <p class="text-wrap lh-sm">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-                nec odio. Praesent libero. Sed cursus ante dapibus diam.
-              </p>
-
-              <p class="text-wrap lh-sm">
-                Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis
-                sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue
-                semper porta.
-              </p>
-              <p class="text-wrap lh-sm">
-                Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent
-                taciti sociosqu ad litora torquent per conubia nostra, per
-                inceptos himenaeos.
-              </p>
-            </div>
-          </div>
+      <div class="row">
+        <!-- Jumbotron -->
+        <div class="p-0 text-center bg-image">
+          <img
+            src="/assets/img/castel_1.jpeg"
+            style="width: 100%; height: auto"
+            alt="Jumbotron-image"
+          />
         </div>
-        <div class="col-12 p-0 col-md-3">
-          <div class="p-5 bg-abu rounded-1">
-            <h2 class="fw-bold fs-4">Latest</h2>
-            <!-- for loop konten -->
-            <hr />
-            <div class="p3 d-flex justify-content-between">
-              <div class="d-flex justify-content-between flex-column">
-                <p class="mb-3">Lorem ipsum dolor sit amet.</p>
-                <p class="text-secondary">17 Aug 2023</p>
-              </div>
-              <div>
-                <img
-                  src="https://source.unsplash.com/500x500?robot"
-                  width="80"
-                  alt=""
-                />
-              </div>
-            </div>
-            <!-- end loop -->
-            <hr />
-            <div class="p3 d-flex justify-content-between">
-              <div class="d-flex justify-content-between flex-column">
-                <p class="mb-3">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </p>
-                <p class="text-secondary">17 Aug 2023</p>
-              </div>
-              <div>
-                <img
-                  src="https://source.unsplash.com/500x500?robot"
-                  width="80"
-                  alt=""
-                />
-              </div>
-            </div>
-            <hr />
-            <div class="p3 d-flex justify-content-between">
-              <div class="d-flex justify-content-between flex-column">
-                <p class="mb-3">
-                  Lorem ipsum dolor sit amet consectetur adipisicing.
-                </p>
-                <p class="text-secondary">17 Aug 2023</p>
-              </div>
-              <div>
-                <img
-                  src="https://source.unsplash.com/500x500?robot"
-                  width="80"
-                  alt=""
-                />
-              </div>
-            </div>
-            <hr />
-            <div class="p3 d-flex justify-content-between">
-              <div class="d-flex justify-content-between flex-column">
-                <p class="mb-3">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,
-                  vel.
-                </p>
-                <p class="text-secondary">17 Aug 2023</p>
-              </div>
-              <div>
-                <img
-                  src="https://source.unsplash.com/500x500?robot"
-                  width="80"
-                  alt=""
-                />
-              </div>
-            </div>
-            <hr />
-            <div class="p3 d-flex justify-content-between">
-              <div class="d-flex justify-content-between flex-column">
-                <p class="mb-3">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </p>
-                <p class="text-secondary">17 Aug 2023</p>
-              </div>
-              <div>
-                <img
-                  src="https://source.unsplash.com/500x500?robot"
-                  width="80"
-                  alt=""
-                />
-              </div>
-            </div>
-            <hr />
-            <div class="p3 d-flex justify-content-between">
-              <div class="d-flex justify-content-between flex-column">
-                <p class="mb-3">
-                  Lorem ipsum dolor sit amet consectetur adipisicing.
-                </p>
-                <p class="text-secondary">17 Aug 2023</p>
-              </div>
-              <div>
-                <img
-                  src="https://source.unsplash.com/500x500?robot"
-                  width="80"
-                  alt=""
-                />
-              </div>
-            </div>
-            <hr />
-            <div class="p3 d-flex justify-content-between">
-              <div class="d-flex justify-content-between flex-column">
-                <p class="mb-3">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,
-                  vel.
-                </p>
-                <p class="text-secondary">17 Aug 2023</p>
-              </div>
-              <div>
-                <img
-                  src="https://source.unsplash.com/500x500?robot"
-                  width="80"
-                  alt=""
-                />
-              </div>
-            </div>
-            <hr />
+        <!-- Jumbotron end -->
+      </div>
+
+      <div class="container-fluid p-5">
+        <div class="row">
+          <div class="visi text-center">
+            <h1 class="fs-3 fw-bold">VISI</h1>
+            <p class="mt-4">
+              ” Menjadikan Universitas Yang unggul dalam IPTEKS dan berwawasan
+              Global dan Berjiwa Entrepreneur Berdasarkan Nilai-nilai Keislaman
+              pada tahun 2033. ”
+            </p>
+          </div>
+          <div class="mt-5 misi text-center">
+            <h1 class="fs-3 fw-bold">MISI</h1>
+            <ul class="mt-4 lh-lg">
+              <li>
+                Menyelenggarakan pendidikan tinggi dalam bidang IPTEKS yang
+                berkualitas berbasis keislaman.
+              </li>
+              <li>
+                Melakukan penelitian dalam bidang IPTEKS secara berkelanjutan.
+              </li>
+              <li>
+                Melaksanakan pengabdian pada masyarakat dalam bidang IPTEKS yang
+                sesuai dengan kebutuhan masyarakat.
+              </li>
+              <li>
+                Melaksanakan Al-Islam dan Kemuhammadiyahan secara
+                berkesinambungan
+              </li>
+              <li>
+                Melaksanakan Kerjasama dengan berbagai pihak dalam lingkup
+                daerah, nasional dan Internasional
+              </li>
+              <li>
+                Menumbuhkan Jiwa Entrepreneur di kalangan Sivitas Akademika UML.
+              </li>
+            </ul>
           </div>
         </div>
       </div>
-
-      <!-- end main -->
     </main>
 
     <footer class="bg-success container-fluid p-4">
@@ -554,7 +391,7 @@
       <hr />
       <div class="row mt-2">
         <div class="col-md-6 d-flex justify-content-between align-items-center">
-          <img src="/assets/img/logouml.png" alt="" />
+          <img src="assets/img/logouml.png" alt="" />
           <div class="text-white d-flex flex-column gap-3">
             <p>Universitas Muhammadiyah Lampung</p>
             <p>
@@ -595,8 +432,8 @@
       integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
       crossorigin="anonymous"
     ></script>
-    <script src="/assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
 
-    <script src="//assets//js/script.js"></script>
+    <script src="/assets//js/script.js"></script>
   </body>
 </html>
